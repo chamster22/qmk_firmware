@@ -37,3 +37,17 @@
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 
+
+/* ws2812 RGB LED */
+#define RGB_DI_PIN D3
+
+#ifdef RGBLIGHT_ENABLE
+#    define RGBLED_NUM 14  // Number of LEDs
+#    define RGBLIGHT_SPLIT
+#endif
+
+#ifdef RGB_MATRIX_ENABLE
+#    define RGBLED_NUM 58  // Number of LEDs
+#    define DRIVER_LED_TOTAL RGBLED_NUM
+#endif
+
