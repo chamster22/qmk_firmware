@@ -63,11 +63,14 @@ for more options.
 	//#define RGBLIGHT_EFFECT_ALTERNATING
 	//#define RGBLIGHT_EFFECT_TWINKLE
 	
-    #define RGBLED_NUM 20
+	//JM MOD
+	#define RGBLED_NUM 72
+	//END JM MOD
+    // #define RGBLED_NUM 20
 	//#define RGBLED_SPLIT
-	#define RGBLED_SPLIT { 10, 10 } // haven't figured out how to use this yet 
+	#define RGBLED_SPLIT { 36, 36 } // haven't figured out how to use this yet 
 	
-	//#define RGBLED_NUM 30
+	// #define RGBLED_NUM 30
     #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 10
     #define RGBLIGHT_SAT_STEP 17
